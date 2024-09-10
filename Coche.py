@@ -14,4 +14,4 @@ class Coche:
         print("Año del coche: ", self.año)
 
     def calcular_edad_coche(self):
-        print("Edad del coche : ", 2024-self.año)
+        print("Edad del coche: ", 2024-self.año)
