@@ -1,4 +1,4 @@
-from Coche import Coche
+from coche import Coche
 
 coche_uno = Coche("Nissan", "Versa", 2015)
 coche_uno.mostrar_info()
