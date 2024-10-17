@@ -300,6 +300,7 @@ class Menu:
                 self.zoologico.eliminar_animal(id_eliminar=id_eliminar)
 
             elif opcion == "14":
+                id= None
                 
                 print("\nSeleccionaste eliminar empleado\n")
 
