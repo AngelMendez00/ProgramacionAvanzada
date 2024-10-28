@@ -13,5 +13,5 @@ class MovieSchema(BaseModel):
     release_year: int
     duration: str
     director: str
-    clasification: str
+    classification: str
     gender: str
