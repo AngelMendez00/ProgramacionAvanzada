@@ -51,8 +51,8 @@ async def create_movie(movie_data: MovieSchema, database: SessionDep):
         release_year = movie_data.release_year,
         duration = movie_data.duration,
         director = movie_data.director,
-        classification= movie_data.classification,
-        gender = movie_data.gender
+        rating= movie_data.rating,
+        genre = movie_data.genre
     )
 
     database.add(movie)

@@ -8,6 +8,6 @@ class MoviesModel(SQLModel, table=True):
     release_year: int
     duration: str
     director: str
-    classification: str
-    gender: str
+    rating: str
+    genre: str
     
